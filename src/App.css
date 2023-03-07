@@ -1,0 +1,285 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Raleway, sans-serif;
+}
+body {
+  background: #dadde1;
+}
+
+.logo {
+  display: flex;
+  padding: 16px 78px;
+  background-color: #fff;
+  justify-content: space-around;
+}
+.logo h1 {
+  color: #0084ff;
+  font-size: 32px;
+  width: 130px;
+  font-weight: 1000;
+}
+.logo #store {
+  margin: 0;
+  font-weight: 500;
+}
+.explore {
+  margin-left: 50px;
+  margin-top: 33px;
+}
+
+.item {
+  display: inline-block;
+  justify-content: center;
+  width: 30%;
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  font-size: 16px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+.image {
+  height: 234px;
+  width: 100%;
+}
+
+.image img {
+  width: 100%;
+  height: 100%;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.title h2 {
+  font-size: 15px;
+  text-align: left;
+  line-height: 1.43;
+  color: black;
+  margin: 15px 25px;
+  font-weight: 600;
+}
+.dec {
+  font-size: 14px;
+  font-weight: 400;
+  text-align: left;
+  line-height: 1.43;
+  color: rgba(0, 0, 0, 0.6);
+  margin: 20px 0px;
+  padding: 10px 10px;
+}
+
+.categoties-menu {
+  font-size: 12px;
+  padding-top: 16px;
+  width: 75%;
+  margin: 0 auto;
+}
+.categoties-menu li {
+  width: auto;
+  padding: 6px 14px;
+  color: #0084ff;
+  border-radius: 15px;
+  border: 1px solid #0084ff;
+  margin: 5px;
+  cursor: pointer;
+  display: inline-block;
+}
+.categoties-menu li a {
+  text-decoration: none;
+  color: black;
+}
+#active {
+  color: white;
+}
+.active-this {
+  background-color: #0084ff;
+}
+.categoties-menu :hover {
+  background-color: #0084ff;
+  transition: 0.5s;
+}
+li:hover a {
+  color: #fff;
+}
+
+.main {
+  margin-bottom: 20px;
+  font-size: 16px;
+  padding-top: 40px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.main p {
+  margin-top: 10px;
+  margin-left: 7px;
+}
+
+span {
+  color: #0096ff;
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 500;
+  margin-left: 15px;
+}
+.author p {
+  margin-left: 18px;
+}
+#filter {
+  width: 75%;
+  margin: 0 auto;
+  margin-left: 233px;
+  font-size: 13px;
+}
+
+.filter-icon {
+  margin-bottom: 50px;
+  margin-left: 174px;
+}
+
+.fa-filter {
+  position: absolute;
+  margin-top: 40px;
+  margin-left: 10px;
+  color: #0084ff;
+}
+.container {
+  display: flex;
+  width: 75%;
+  margin: 0 auto;
+}
+.right-img {
+  width: 100%;
+}
+.right-img img {
+  display: block;
+  border-radius: 5px;
+  width: 278px;
+  display: block;
+  margin: 0 0 16px 16px;
+}
+.trending-post h2 {
+  width: 75%;
+  margin: 0 auto;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 1.94;
+  letter-spacing: -0.9px;
+}
+.latest-post {
+  width: 75%;
+  margin: 10px auto;
+  font-family: Raleway, sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.25;
+  letter-spacing: -0.6px;
+  color: #000;
+}
+.edyoda-logo {
+  display: flex;
+}
+.heading-para {
+  margin-left: 523px;
+}
+.button-go-to-web {
+  background-color: #0084ff;
+  width: 11%;
+  text-align: center;
+  margin: auto;
+  margin-left: -16px;
+  padding: 12px;
+  font-size: 12px;
+  border-radius: 23px;
+}
+.button-go-to-web a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 550;
+}
+.heading-para p {
+  min-width: 23em;
+  opacity: 0.6;
+  font-family: Raleway, sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1;
+  letter-spacing: 0.4px;
+  color: rgba(0, 0, 0, 0.6);
+  margin-top: 13px;
+}
+.cards {
+  margin-left: 246px;
+}
+
+footer {
+  background: url(https://www.edyoda.com/static/media/FooterBg.0d54e96d.png);
+  padding: 40px 8%;
+
+  display: flex;
+  height: 25vh;
+  flex-direction: column;
+
+  justify-content: start;
+}
+.Footer-address a {
+  cursor: pointer;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  padding: 4px 0;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 300;
+  font-size: 14px;
+}
+#latest {
+  color: #000;
+}
+.Heading {
+  color: #fff;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+}
+.footer-details {
+  display: flex;
+}
+
+.second-set {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 500px;
+}
+.col-3 {
+  padding-left: 67px;
+}
+.col-3 a {
+  color: #fff;
+
+  font-size: 12px;
+}
+.col-2 {
+  padding-left: 100px;
+}
+.col-2 a {
+  color: white;
+  font-size: 12px;
+}
+.col-1 a {
+  color: white;
+  font-size: 12px;
+}
+.col-1 div {
+  margin-top: 10px;
+}
+.col-2 div {
+  margin-top: 10px;
+}
+.col-3 div {
+  margin-top: 10px;
+}
+
+div h3 {
+  color: hsla(0, 0%, 100%, 0.5);
+}
